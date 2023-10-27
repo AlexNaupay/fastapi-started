@@ -7,4 +7,6 @@ app = fastapi.FastAPI()
 def index():
     return 'Hello world'
 
-#  uvicorn main:app --reload
+#  uvicorn main:app --reload  --port 5000 --host 0.0.0.0
+#  pip freeze > requirements.txt
+#  pip install -r requirements.txt
